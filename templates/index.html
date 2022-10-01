@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="container bg-warning">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="card m-5 opacity-40 bg-info">
+                    <h3 class="card-header">Floof Counter</h3>
+                    <div class="card-body display-flex">
+                        <p>Dear Frances, you have been floofed {{session['count']}} times.</p>
+                        <a href="/" class="btn btn-primary">Floof ME!</a>
+                        <a href="/reset" class="btn btn-danger">UNFLOOF!</a>
+                        <a href="/plus2" class="btn btn-danger">+2</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
